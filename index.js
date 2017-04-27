@@ -1,1 +1,3 @@
-module.exports = 'pkg1'
+var loremIpsum = require('lorem-ipsum')
+
+module.exports = 'pkg1: ' + loremIpsum()
